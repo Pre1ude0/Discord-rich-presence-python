@@ -1,0 +1,14 @@
+Storyteller patch notes for v. 1.0
+
+New contents:
+  Now by writing the password 'yalikejazz' you can now get the bee movie script (pretty amazing isnt it).
+
+Changes:
+  * Write cooldonw reduced to 1.5 secs
+  * Now the file is bigger for story reading purposes
+
+Plans for future updates:
+  A story adding feature 
+
+Thanks for using my programme!
+Larss_J
