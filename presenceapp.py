@@ -9,13 +9,11 @@ If you have any questions feel free to ask me on my discord server: https://disc
 # importing all the required modules
 from pypresence import Presence
 import time
-import datetime
-from datetime import timedelta
 
 # setting the start time
-start = datetime.datetime.now()
-# setting the end time (this can be changed to your liking)
-end = start + timedelta(days=0, hours=0, minutes=30, seconds=0)
+start = time.time()
+# setting the end time (in seconds) (this can be changed to your liking)
+end = start + 60
 
 # setting the client id
 client_id = "<client id>"  # this can be obtained from the application id section from the discord developer portal
@@ -44,7 +42,7 @@ while True:
         details="<text>",  # the text that appears under the main title of your presence
         state="<text>",  # the text that appears under the details
         start=start,  # the inputted start time (shows as "elapsed")
-        end=None,  # the end time (shows as "remaining")
+        end=end,  # the end time (shows as "remaining")
         # the buttons that appear under your presence (max 2 buttons)
         buttons=[
             {"label": "<Your label>", "url": "<url link>"},
