@@ -8,7 +8,7 @@ Documentation for using the PresenceApp discord presence template.
 - Downloading the template
 - Filling out the python template
 
-### Step 1: _Creating an application_
+### Step 1: Creating an application
 To create an application we will have to go to [the discord developer portal](https://discord.com/developers) and create a new application by clicking `New Aplication`!
 _Notice: The name of the application will be the title of your presence, but you can change this name any time!_
 ![Alt](https://cdn.discordapp.com/attachments/1036012959983476838/1061703687661178931/image.png)
