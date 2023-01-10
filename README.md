@@ -8,9 +8,6 @@ Documentation for using the PresenceApp discord presence template.
 - Downloading the template
 - Filling out the python template
 
-### Step 1: _Creating an application_
-To create an application, we will have to go to [the discord developer portal](https://discord.com/developers) and create a new application by clicking `New Aplication`!
-
 ### Step 1: Creating an application
 To create an application we will have to go to [the discord developer portal](https://discord.com/developers) and create a new application by clicking `New Aplication`!
 
@@ -38,7 +35,7 @@ After it has created the folder in your desired install location, run the follow
 ```
 pip install -r requirements.txt
 ```
-Everything you need in this template should be installed, and you should be ready to go without any extra installs.
+Everything you need in this template should be installed, and you should be ready to go without any extra downloads.
 
 ### Step 5: Filling out the template
 We've finally got to the juice and bones of this tutorial! Filling out the template goes as following: After locating the `presenceapp.py` file, fill out the according values.
